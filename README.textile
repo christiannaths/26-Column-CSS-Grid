@@ -12,3 +12,5 @@ This repo includes:
 * sample_layout.html => a very simple use case example
 
 ---
+
+!http://github.com/cnaths/26-Column-CSS-Grid/blob/master/diagram.png!
