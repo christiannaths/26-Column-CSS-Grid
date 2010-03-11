@@ -13,4 +13,5 @@ This repo includes:
 
 ---
 
-!http://github.com/cnaths/26-Column-CSS-Grid/blob/master/diagram.png!
+A diagram:
+!http://github.com/cnaths/26-Column-CSS-Grid/blob/master/diagram.png(diagram)!
