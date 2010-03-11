@@ -13,4 +13,4 @@ This repo includes:
 
 ---
 
-For a visual reference, see diagram.png
+For a visual reference, see "this diagram":http://christiannaths.com/share/26-col-grid/diagram.png
