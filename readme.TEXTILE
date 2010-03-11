@@ -1,0 +1,14 @@
+h1. A 26 Column CSS grid for HTML layouts
+
+h5. based on Blueprint CSS
+
+---
+
+This repo includes:
+
+* grid.css => the css file
+* grid.png => a tile-able .png image which can be overlaid in the background of any element (typically .container) by adding the .showgrid class
+* Grids.atn => an Adobe Photoshop action to quickly create a new .psd for you design compositions
+* sample_layout.html => a very simple use case example
+
+---
