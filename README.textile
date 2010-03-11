@@ -1,6 +1,10 @@
-h1. A 26 Column CSS grid for HTML layouts
+h1. 26 Column CSS Grid
 
 h5. based on Blueprint CSS
+
+---
+
+A 26 Column CSS grid for HTML layouts which gives you 2 'extra' columns for padding and 24 columns for content, which can be neatly divided into 2, 3, 4, & 6 columns. Columns are based on 25px width + 12px gutter dimensions, giving a total page width of 950px.
 
 ---
 
