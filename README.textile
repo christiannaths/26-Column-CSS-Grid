@@ -12,7 +12,7 @@ This repo includes:
 
 * grid.css => the css file
 * grid.png => a tile-able .png image which can be overlaid in the background of any element (typically .container) by adding the .showgrid class
-* Grids.atn => an Adobe Photoshop action to quickly create a new .psd for you design compositions
+* Grids.atn => an Adobe Photoshop action to quickly create a new .psd with all the proper guides for your design compositions
 * sample_layout.html => a very simple use case example
 
 ---
