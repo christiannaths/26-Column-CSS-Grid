@@ -1,0 +1,49 @@
+body {
+  font-family: "Arial";
+  font-size: 12px;
+  color: #888;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Arial Black";
+}
+
+a {
+  color: #0cc;
+  text-decoration: none;
+}
+
+code {
+  display: block;
+  padding: 0.25em;
+  background-color: #f1f1f1;
+  border: 1px solid #e7e7e7;
+}
+
+ul.nav {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: right;
+}
+
+ul.nav li {
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.nav li a {
+  padding-left: 1em;
+  text-decoration: none;
+  color: #c0c;
+}
+
+form .field {
+  margin-bottom: 1em;
+}
+
+form .field label{
+  display: inline-block;
+  width: 200px;
+}
