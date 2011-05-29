@@ -1,0 +1,52 @@
+$page-width: 950px
+$column-count: 26
+$gutter-width: 12px
+$column-width: 25px
+
+@mixin container
+  width: $page-width
+  margin: 0 auto
+
+@mixin column
+  float: left
+
+@mixin span($i)
+  width: ($column-width * $i) + ($gutter-width * ($i - 1))
+  @if $i != 26
+    margin-right: $gutter-width
+
+@mixin prepend($i)
+  padding-left: ($column-width * $i) + ($gutter-width * $i)
+
+@mixin append($i)
+  padding-right: ($column-width * $i) + ($gutter-width * $i)
+
+@mixin pull($i)
+  position: relative
+  float: left
+  margin-left: -($column-width * $i) + ($gutter-width * $i)
+
+@mixin push($i)
+  position: relative
+  float: right
+  margin: 0 (-($column-width * $i) + ($gutter-width * $i)) 1.5em (($column-width * $i) + ($gutter-width * $i))
+
+@mixin first
+  margin-left: 0
+  padding-left: 0
+
+@mixin last
+  margin-right: 0
+  padding-right: 0
+
+@mixin top
+  margin-top: 0
+  padding-top: 0
+
+@mixin bottom
+  margin-bottom: 0
+  padding-bottom: 0
+
+@mixin box
+  padding: 1.5em
+  margin-bottom: 1.5em
